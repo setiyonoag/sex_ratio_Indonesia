@@ -54,13 +54,13 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: azure;
 	color: #333;
-	background-image: url(../img/footer_lodyas.png);
+	background-image: url(https://raw.githubusercontent.com/setiyonoag/sex_ratio_Indonesia/main//img/footer_lodyas.png);
 }
 
 .konten {
 	width : 80%;
 	margin : 5% 10vw;
-	padding: 5%;
+	padding: 1vmax;
 	background-color: #fff;
 	position: relative;
 
@@ -79,7 +79,7 @@ body {
 
 .hero {
 	height: 25vw;
-	background-image: url(../img/image12.png);
+	background-image: url(https://raw.githubusercontent.com/setiyonoag/sex_ratio_Indonesia/main/img/image12.png);
 	background-size: cover;
 	background-position: 0 38vw;
 	border-top: 10px solid salmon;
@@ -89,6 +89,7 @@ body {
 .main {
 	width: 50vmax;
 	max-width: 60vw;
+	min-width: 320px;
 	padding: 10px;
 	box-sizing: border-box;
 	float: left;
@@ -123,8 +124,8 @@ body {
 	width: 290px;
 	float: left;
 	padding-top: 100px;
-	padding-right: 30px;
-	padding-left: 30px;
+	/* padding-right: 5vmax; */
+	padding-left: 5vmax;
 }
 
 .sidebar h3{
