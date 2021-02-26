@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/* Style */
+body {
+	/* font: 12px/28px "Lucida Handwriting", "Brush Script MT", Cursive; */
+	font-size: 12px/28px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: azure;
+	color: #333;
+	background-image: url(../img/footer_lodyas.png);
+}
+
+.konten {
+	width : 80%;
+	margin : 5% 10vw;
+	padding: 5%;
+	background-color: #fff;
+	position: relative;
+
+
+}
+
+
+.konten .judul {
+    margin: 2vh 20px;
+	font-size: 50vh;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(11, 153, 235);
+}
+
+
+.hero {
+	height: 25vw;
+	background-image: url(../img/image12.png);
+	background-size: cover;
+	background-position: 0 38vw;
+	border-top: 10px solid salmon;
+	border-bottom: 5px dashed lightskyblue;
+
+}
+.main {
+	width: 50vmax;
+	max-width: 60vw;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.main .gambar {
+	width: 45vw;
+}
+
+.main .penulis {
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.main .penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.main p {
+    text-align: justify;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.sidebar {
+	width: 290px;
+	float: left;
+	padding-top: 100px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.sidebar h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+}
+
+.sidebar img{
+	width: 110px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p{
+	text-align: justify;
+	font: 12px/18px arial;
+}
+
+.footer {
+	background-color: black;
+	padding: 10px;
+}
+
+.footer .copy {
+	color :#eaeaea;
+	text-align: center;
+	font-size: 12px;
+} 
+
+/*micro clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
