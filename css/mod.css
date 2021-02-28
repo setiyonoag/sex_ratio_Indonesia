@@ -59,6 +59,7 @@ body {
 
 .konten {
 	width : 80%;
+	min-width : 370px;
 	margin : 5% 10vw;
 	padding: 1vmax;
 	background-color: #fff;
